@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@myvuemonoapp/lib": ["lib/src/index.ts"],
+      "@myvuemonoapp/my-lib": ["my-lib/src/index.ts"],
+      "@myvuemonoapp/shared": ["libs/shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

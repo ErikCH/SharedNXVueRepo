@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import NxWelcome from './NxWelcome.vue';
+import { SharedComp } from '@myvuemonoapp/shared';
 </script>
 
 <template>
-  <NxWelcome title="app1" />
+  <h1>Welcome App1</h1>
+  <SharedComp />
 </template>
